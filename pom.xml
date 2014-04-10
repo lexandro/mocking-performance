@@ -11,6 +11,7 @@
 		<maven.compiler.plugin.version>3.1</maven.compiler.plugin.version>
 		<mockito.version>1.9.5</mockito.version>
 		<easymock.version>3.2</easymock.version>
+		<jmockit.version>1.7</jmockit.version>
 		<junit.version>4.11</junit.version>
 		<apache.commons.validator.version>1.4.0</apache.commons.validator.version>
 	</properties>
@@ -33,6 +34,12 @@
 			<artifactId>easymock</artifactId>
 			<version>${easymock.version}</version>
 		</dependency>
+		<dependency>
+			<groupId>com.googlecode.jmockit</groupId>
+			<artifactId>jmockit</artifactId>
+			<version>1.7</version>
+		</dependency>
+
 
 		<dependency>
 			<groupId>junit</groupId>
